@@ -1,0 +1,140 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.colorNav{
+    background-color:  rgb(207, 168, 243);
+}
+.colorBgBody{
+    background-color: blueviolet;
+}
+.colorDiv{
+    background-color: rgb(207, 168, 243);
+}
+.colorPastel{
+    background-color: rgba(246, 231, 248, 0.853);
+}
+.colorBeneficios{
+    background-color: rgb(179, 193, 236);
+}
+
+body{
+    margin: 0;
+}
+
+.carrusel {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.carrusel-items{
+    display: flex;
+    /* inicialmente este overflow-x estaba en scroll */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 30px 0px;
+}
+.carrusel-item{
+    min-width: 300px;
+    max-width: 300px;
+    height: 200px;
+    outline: 2px solid black;
+}
+
+.carrusel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carrusel-item:hover{
+    transform:scale(1.2)
+}
+
+
+.bg-img-jumbo{
+    background-image: url("https://www.coopebanpo.fi.cr/wp-content/uploads/2021/12/UH.jpg");        
+    /* https://images.unsplash.com/photo-1588420343618-6141b3784bce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80 */
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.carrusel-item p{
+    position: absolute;
+    color: white;
+    font-size: 1rem;
+    /* top: 50%; */
+    /* left: 20%; */
+   
+}
+
+.tamanoLetra{
+    font-size: 2rem;
+}
+
+/* vista movil */
+/* @media (max-width: 767px){
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+} */
+
+
+/* vista tablet */
+/* @media (min-width: 768px) and (max-width: 990px){
+    .desktop{
+        display: none;
+    }
+    .movil{
+        display: none;
+    }
+} */
+/* vista escritorio */
+/* @media (min-width: 991px){
+    .tablet{
+        display: none;
+    }
+    .movil{
+        display: none;
+    }
+} */
+
+/* letter nav */
+.letterNav{
+    font-family:'Alegreya', serif;
+    font-size: 1.3rem;
+}
+/* letter index */
+.letterLM{
+    font-family:'Alegreya', serif;
+    font-size: 2.1rem;
+}
+
+.generalLetter{
+    font-family:'Alegreya', serif;
+    font-size: 1.3rem;
+}
+
+.bigLetter{
+    font-family:'Alegreya', serif;
+    font-size: 2rem;
+}
+/* Bg Jumbo */
+.bgimage{
+    background-image: url("https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=655&q=80"); 
+    
+}
+
+.letterLogo{
+    font-family:'Alegreya', serif;
+    font-size: 1.6rem;
+}
